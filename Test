@@ -1,0 +1,8 @@
+cd "c:\Users\PC\Documents\ZZZ PROYECTO 1"
+git init
+git add .
+git commit -m "Proyecto ZZZ Chess"
+# Crear repo nuevo en https://github.com/new (privado o público, da igual)
+git branch -M main
+git remote add origin https://github.com/TU-USUARIO/zzz-chess.git
+git push -u origin main
